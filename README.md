@@ -334,3 +334,32 @@ python src/evaluate.py
 - **Não altere os datasets de avaliação** - apenas os prompts em `prompts/bug_to_user_story_v2.yml`
 - **Itere, itere, itere** - é normal precisar de 3-5 iterações para atingir 0.8 em todas as métricas
 - **Documente seu processo** - a jornada de otimização é tão importante quanto o resultado final
+
+
+# Resultado do desafio
+
+Aqui detalho como foi feito, conforme orientação para entrega
+
+## Técnicas Aplicadas
+
+### Obrigatório:
+
+- **Few-Shot Learning:** a sessão "3. EXEMPLO DE REFERÊNCIA (Bug Simples)" mosta um detalhe claro com a saída esperada
+
+### Adicionais:
+
+- **Role Prompting:** no início do prompt detalho a persona e o contexto "Você é um Product Owner e Engenheiro de Software ..."
+- **Skeleton of Thought:** o padrão é aplicado com as sessões "1. DIRETRIZES DE ESTRUTURAÇÃO" e "2. TEMPLATE DE SAÍDA OBRIGATÓRIO", com isso forço o modelo dividir o resulto em sessões bem definidas.
+
+
+## Resultados Finais
+
+...
+
+## Como Executar
+
+...
+
+## Evidências no LangSmith
+
+...
